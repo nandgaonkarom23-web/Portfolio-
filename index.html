@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Card</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      padding: 30px 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #66a6ff;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    h4 {
+      margin: 0;
+      color: #666;
+      font-weight: 500;
+    }
+
+    p {
+      color: #555;
+      font-size: 14px;
+      margin: 15px 0 20px;
+      line-height: 1.5;
+    }
+
+    a {
+      text-decoration: none;
+      background-color: #0077b5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    a:hover {
+      background-color: #005b85;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Profile Photo" class="profile-img">
+    <h2>Omkar Nandgaonkar</h2>
+    <h4>Web Developer</h4>
+    <p>
+      Passionate front-end developer skilled in creating clean, responsive, and user-friendly websites. Always eager to learn new technologies and improve user experiences.
+    </p>
+    <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">Connect on LinkedIn</a>
+  </div>
+</body>
+</html>
